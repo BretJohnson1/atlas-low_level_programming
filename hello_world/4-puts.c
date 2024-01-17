@@ -1,6 +1,6 @@
 #!/bin/bash
 {
-    gcc -c
+    gcc 
     puts "Programming is like building a multilingual puzzle"
     return 0
 }
