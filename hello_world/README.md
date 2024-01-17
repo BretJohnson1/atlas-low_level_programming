@@ -1,0 +1,1 @@
+#In this project we're starting our journey with C and all it has to offer. Looking forward to learning the new language and expanding my coding knowledge!
