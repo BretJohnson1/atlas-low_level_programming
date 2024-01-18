@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** main - assign a number to n Return: always return 0 */
+/** 
+ *main - assign a number to n
+ *
+ * Return: always return 0 
+*/
 int main(void)
 {
 	int n;
