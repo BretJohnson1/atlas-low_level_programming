@@ -1,0 +1,1 @@
+In this project we're learning about arithmatic operators and how to use them. We'll be focusing on if/if else statemnts as well as while loops and the printf function.
