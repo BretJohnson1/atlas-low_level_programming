@@ -14,9 +14,12 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if (n > 0) echo ("is psoitive, \n")
-	  else if (n == 0) echo ("is zero, \n")
-	    else (n < 0) echo ("is negative, \n")
-		   
+	if (n > 0)
+	  {
+	    printf("is psoitive, \n");
+	    else if (n == 0) printf("is zero, \n");
+	    else (n < 0) printf("is negative, \n");
+	  }
+	
 	return (0);
 }
