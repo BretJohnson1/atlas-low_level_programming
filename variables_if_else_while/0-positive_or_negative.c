@@ -1,12 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/**
- * main - assign a number to n
- *
- * Return; always 0
- */
+#include <stdio.h>
+/* main - assign a number to n Return: always return 0 */
 int main(void)
 {
 	int n;
@@ -16,10 +11,11 @@ int main(void)
 
 	if (n > 0)
 	  {
-	    printf("is psoitive, \n");
-	    else if (n == 0) printf("is zero, \n");
-	    else (n < 0) printf("is negative, \n");
+	    printf("is psoitive,\n");
+	    else if (n == 0) printf("is zero,\n");
+	    else (n < 0) printf("is negative,\n");
 	  }
+	fi
 	
 	return (0);
 }
