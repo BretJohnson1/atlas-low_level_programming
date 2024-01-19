@@ -1,0 +1,9 @@
+#include <stdio.h>
+/**
+*main - print single digits
+*
+*Return: always retun zero
+*/
+int main(void)
+{
+  
