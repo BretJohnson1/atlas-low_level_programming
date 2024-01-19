@@ -12,7 +12,7 @@ char c = 'a'
 {
 putchar(c);
 c++;
-removeChar ('q','e')
+remove ('q','e');
 }
 putchar('\n');
 
