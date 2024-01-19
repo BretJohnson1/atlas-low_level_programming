@@ -1,8 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* betty style doc for function main goes there */
+/**
+ *main - print last digit biatch
+ *
+ *Return: always return 0
+*/
 int main(void)
 {
 	int n;
@@ -13,16 +16,16 @@ int main(void)
 	printf("Last digit of %d is n%10",(n));
 
 	if (n % 10 > 5)
-	  {
-	    printf("and is greater than 5");
-	      }
+	{
+	  printf("and is greater than 5");
+	}
 	else if (n % 10 == 0)
-	  {
-	    printf("and is 0");
-	      }
+	{
+	  printf("and is 0");
+	}
 	else
-	  {
-	    printf("and is less than 6 and not 0");
-	      }
+	{
+	  printf("and is less than 6 and not 0");
+	}
 	return (0);
 }
