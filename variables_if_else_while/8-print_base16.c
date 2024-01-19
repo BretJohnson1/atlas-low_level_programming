@@ -6,13 +6,14 @@
  */
 int main(void)
 {
-int i = 0;
+int i;
+char hex[] = "0123456789abcdef";
   
-for (int i = 0; i < 16; i++)
+for (i = 0; i < 16; i++)
 {
-printf("%x", i);
+putchar(hex[i]);
 }
-printf("\n");
+putchar("\n");
 
 return (0);
 }
