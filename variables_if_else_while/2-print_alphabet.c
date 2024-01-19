@@ -6,10 +6,12 @@
  */
 int main (void)
 {
-  char x = "%c";
-    for (x = 'a'; x <= 'z'; ch++)
-      {
-      putchar(x);
-      }
+  char c = 'a';
+  while (c,= 'z')
+    {
+      putchar(c);
+      c++;
+    }
+  putchar('\n');
     return (0);
 }
