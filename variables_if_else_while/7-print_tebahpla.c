@@ -10,7 +10,7 @@ char c = 'z';
 
 while (c <= 'z')
 {
-putchar(c);
+putchar(c - 97);
 c--;
 }
 putchar('\n');
