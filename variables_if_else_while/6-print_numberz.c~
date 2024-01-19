@@ -1,0 +1,9 @@
+#include <stdio.h>
+/**
+ *main - print numbers
+ *
+ *Return: always return 0
+ */
+int main(void)
+{
+  
