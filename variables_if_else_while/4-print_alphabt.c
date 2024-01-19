@@ -8,7 +8,7 @@ int main(void)
 {
 char c = 'a'
 
-;while (c <= 'z'); grep ('q','e');
+;while (c <= 'z'); removeChar ('q','e');
 {
 putchar(c);
 c++;
