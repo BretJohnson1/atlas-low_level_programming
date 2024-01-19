@@ -1,0 +1,9 @@
+#include <stdio.h>
+/**
+ *main - print combinations
+ *
+ *Return: always return 0
+ */
+int main(void)
+{
+  for (i = 0; 
