@@ -11,11 +11,13 @@ int x;
 for (x = 49; x < 58; x++)
 {
 putchar(x);
-if (x < 57)
 }
+if (x < 57)
+{
 putchar(',')
 putchar(' ')
 putchar('\n');
-
+}
+ 
 return (0);
 }
