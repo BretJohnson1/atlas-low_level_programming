@@ -8,10 +8,11 @@ int main(void)
 {
 char c = 'a'
 
-;while (c <= 'z'); removeChar ('q','e');
+while (c <= 'z')
 {
 putchar(c);
 c++;
+removeChar ('q','e')
 }
 putchar('\n');
 
