@@ -1,0 +1,9 @@
+#include "mai.h"
+/**
+ *print_sign - prints sign of number
+ *@n:checked output
+ *
+ *Return: return a number
+ */
+int print_sign(int n)
+{
