@@ -2,18 +2,18 @@
 /**
  *int _islower(int c) - lowercase characters
  *
- *Return: always return 0
+ *Return: return 1 or 0
  */
 int _islower(int c)
 {
 
-  if (c >= 'a')
-    {
-      return (1);
-      }
-  else if (c == 'A')
-    {
-      return (0);
-    }
-  return (0);
+if (c >= 'a')
+{
+return (1);
+}
+else if (c == 'A')
+{
+return (0);
+}
+return (0);
 }
