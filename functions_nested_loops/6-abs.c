@@ -4,9 +4,8 @@
  *
  *Return: always return 0
  */
-int _abs(int)
+int _abs(int r)
 {
-int r;
 
 if (r < 0)
 {
@@ -16,5 +15,5 @@ else
 {
 return (r);
 }
-reutrn (0);
+return (0);
 }
