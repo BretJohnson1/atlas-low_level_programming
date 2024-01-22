@@ -15,7 +15,7 @@ _putchar(h);
 
 while (m >= 0 && m <=59)
 
-if (i >59)
+if (m > 59)
 h++;
 }
 return (0);
