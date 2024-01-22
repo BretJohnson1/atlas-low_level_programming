@@ -13,7 +13,7 @@ while (h >= 0 && h < 13)
 {
 _putchar(h);
 
-while (i >= 0 && i <=59)
+while (m >= 0 && m <=59)
 
 if (i >59)
 h++;
