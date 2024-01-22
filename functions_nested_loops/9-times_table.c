@@ -12,13 +12,13 @@ for (i = 0; i <= 9; i++)
 {
 for (j =0; j <= 9; j++)
 {
-product = i * 9;
-digit = product / 9;
+product = i * 9 + j;
+digit = product / 10;
 if (digit != 0)
 _putchar('0' + digit);
 else if (j !=0)
 _putchar(' ');
-digit = product % 9;
+digit = product % 10;
 _putchar('0' + digit);
 if (j != 9)
 {
