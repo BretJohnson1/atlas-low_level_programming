@@ -12,7 +12,7 @@ for (i = 0; i <= 9; i++)
 {
 for (j =0; j <= 9; j++)
 {
-product = i * 9 + j;
+product = i * 9;
 digit = product / 10;
 if (digit != 0)
 _putchar('0' + digit);
