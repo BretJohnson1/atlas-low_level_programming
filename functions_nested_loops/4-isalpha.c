@@ -12,7 +12,7 @@ if (c == 'a' || c == 'A')
 {
 return (1);
 }
-else if
+else if (c != 'a' || c != 'A')
 {
 return (0);
 }
