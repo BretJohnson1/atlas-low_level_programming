@@ -13,10 +13,9 @@ int h = 0-23;
 {
 _putchar(h);
 
-while (m >= 0 && m <=59)
+for (m >= 0 && m <=59)
 
 if (m > 59)
 h++;
 }
-return (1);
 }
