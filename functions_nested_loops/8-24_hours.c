@@ -9,7 +9,7 @@ void jack_bauer(void)
 int h = 0-23;
 int m = 0-59;
 
- for (h = 0; h <= 24; h++)
+for (h = 0; h <= 24; h++)
 {
 _putchar(h);
 h++;
