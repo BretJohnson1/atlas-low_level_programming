@@ -15,17 +15,17 @@ for (j =0; j <= 9; j++)
 product = i * 9 + j;
 digit = product / 10;
 if (digit != 0)
-putchar('0' + digit);
+_putchar('0' + digit);
 else if (j !=0)
-putchar(' ');
+_putchar(' ');
 digit = product % 10;
-putchar('0' + digit);
+_putchar('0' + digit);
 if (j != 9)
 {
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
