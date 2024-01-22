@@ -7,11 +7,11 @@
 int _islower(int c)
 {
 
-  if (c = 'a');
+  if (c = 'a')
     {
       return (1);
       }
-  else if (c = 'A');
+  else if (c = 'A')
     {
       return (0);
     }
