@@ -15,5 +15,4 @@ _putchar(48 + i);
 }
 _putchar('\n');
 i++;
-}
-	
+}	
