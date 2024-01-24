@@ -11,7 +11,7 @@ int i = 0;
 for (i = 0; i <= 9; i++)
 {
 if (i != 2 && i != 4)
-_putchar(48 + i)
+_putchar(48 + i);
 }
 _putchar('\n');
 i++;
