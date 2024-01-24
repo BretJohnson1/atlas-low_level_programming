@@ -8,12 +8,12 @@ void print_numbers(void)
 {
 int i;
 
-if (i <= 9 && >= 0)
+if (i <= 9 && i >= 0)
 {
 _putchar(i);
 i++;
 }
-_putchar('\n')
+_putchar('\n');
 
 return (0);
 }
