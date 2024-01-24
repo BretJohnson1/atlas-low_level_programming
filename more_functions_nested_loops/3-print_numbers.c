@@ -6,9 +6,9 @@
  */
 void print_numbers(void)
 {
-int i;
+int i = 0;
 
-if (i <= 9 && i >= 0)
+while (i <= 9 && i >= 0)
 {
 _putchar(48 + i);
 }
