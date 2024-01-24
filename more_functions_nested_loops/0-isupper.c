@@ -7,11 +7,11 @@
  */
 int _isupper(int c)
 {
-  if ('c' == 'A')
+  if (c == 'A')
     {
       return (1);
     }
-  else('c' != 'A');
+  else (c != 'A');
 	{
 	  return (0);
 	}
