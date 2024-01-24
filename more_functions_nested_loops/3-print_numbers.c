@@ -6,11 +6,11 @@
  */
 void print_numbers(void)
 {
-int i = 0;
+int i;
 
 if (i <= 9 && i >= 0)
 {
-_putchar(48-57);
+_putchar(48 + i);
 }
 _putchar('\n');
 i++;
