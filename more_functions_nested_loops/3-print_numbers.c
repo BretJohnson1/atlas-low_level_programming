@@ -6,7 +6,7 @@
  */
 void print_numbers(void)
 {
-int i;
+int i = 0;
 
 if (i <= 9 && i >= 0)
 {
@@ -15,5 +15,4 @@ i++;
 }
 _putchar('\n');
 
-return (0);
 }
