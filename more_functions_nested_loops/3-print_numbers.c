@@ -10,7 +10,7 @@ int i = 0;
 
 if (i <= 9 && i >= 0)
 {
-_putchar(48 + i);
+_putchar(i);
 }
 _putchar('\n');
 i++;
