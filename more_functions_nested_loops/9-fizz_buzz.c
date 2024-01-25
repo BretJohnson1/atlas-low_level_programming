@@ -12,22 +12,18 @@ int main(void)
     {
       if ((p % 3) == 0 && (p % 5) == 0)
 	{
-	printf("FizzBuzz");
-	  putchar(' ');
+	printf("FizzBuzz ");
 	}
 	else if ((p % 5) == 0)
 	  {
-	  printf("Buzz");
-      putchar(' ');
+	  printf("Buzz ");
 	  }
 	else if ((p % 3) == 0)
 	{
-	printf("Fizz");
-      putchar(' ');
+	printf("Fizz ");
 	}
       else
-	printf("%d", p);
-	  putchar(' ');
+	printf("%d ", p);
     }
   putchar('\n');
   return (0);
