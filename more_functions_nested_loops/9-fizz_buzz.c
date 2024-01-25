@@ -29,4 +29,5 @@ int main(void)
 	putchar(p);
 	  putchar(' ');
     }
+  return (0);
 }
