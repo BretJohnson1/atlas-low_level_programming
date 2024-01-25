@@ -26,7 +26,7 @@ int main(void)
       putchar(' ');
 	}
       else
-	putchar(p);
+	putchar(int p);
 	  putchar(' ');
     }
   return (0);
