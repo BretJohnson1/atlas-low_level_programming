@@ -8,7 +8,7 @@ int main(void)
 {
   int p;
 
-  for (p = 1; p <= 100; p++)
+  for (p = 1; p < 100; p++)
     {
       if ((p % 3) == 0 && (p % 5) == 0)
 	{
@@ -25,6 +25,6 @@ int main(void)
       else
 	printf("%d ", p);
     }
-  putchar('\n');
+  puts("Buzz");
   return (0);
 }
