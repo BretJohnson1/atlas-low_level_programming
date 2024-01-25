@@ -25,6 +25,5 @@ int main(void)
 	printf("FizzBuzz");
       putchar(' ');
 	}
-      return (0);
     }
 }
