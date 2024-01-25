@@ -11,12 +11,12 @@ int main(void)
   for (p = 1; p <= 100; p++)
     {
       if ((p % 3) + 0)
-	putchar(Fizz);
+	printf("Fizz");
 	  putchar(' ');
 	else if ((p % 5) + 0)
-	  putchar(Buzz);
+	  printf("Buzz");
       putchar(' ');
       else if ((p % 3) && (p % 5))
-	putchar(FizzBuzz);
+	printf("FizzBuzz");
       putchar(' ');
     }
