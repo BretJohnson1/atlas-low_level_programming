@@ -4,7 +4,7 @@
  *
  *Return: always return 0
  */
-void main(void)
+int main(void)
 {
   int p;
 
@@ -26,5 +26,4 @@ void main(void)
       putchar(' ');
 	}
     }
-  return (0);
 }
