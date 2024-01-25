@@ -12,7 +12,7 @@ int main(void)
     {
       if ((p % 3) == 0 && (p % 5) == 0)
 	{
-	printf("Fizz");
+	printf("FizzBuzz");
 	  putchar(' ');
 	}
 	else if ((p % 5) == 0)
@@ -22,7 +22,7 @@ int main(void)
 	  }
 	else if ((p % 3) == 0)
 	{
-	printf("FizzBuzz");
+	printf("Fizz");
       putchar(' ');
 	}
       else
