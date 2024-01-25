@@ -14,10 +14,14 @@ int main(void)
 	{
 	printf("Fizz");
 	  putchar(' ');
+	}
 	else if ((p % 5) + 0)
+	  {
 	  printf("Buzz");
       putchar(' ');
+	  }
       else if ((p % 3) && (p % 5))
+	{
 	printf("FizzBuzz");
       putchar(' ');
 	}
