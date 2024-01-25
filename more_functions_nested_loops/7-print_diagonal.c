@@ -18,6 +18,8 @@ for (b = 0; b <= a; b++)
 _putchar(' ');
 }
 _putchar('\\');
+_putchar('\n');
 }
+if (n <= 0);
 _putchar('\n');
 }
