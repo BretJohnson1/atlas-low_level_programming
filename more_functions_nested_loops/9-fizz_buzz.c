@@ -26,7 +26,7 @@ int main(void)
       putchar(' ');
 	}
       else
-	printf("%d" (p));
+	printf("%d", p);
 	  putchar(' ');
     }
   return (0);
