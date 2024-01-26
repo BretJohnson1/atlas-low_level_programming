@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *reset_to_98 - update values
- *@*n: checked output
+ *@n: checked output
  *
  *Return: always return 0
  */
