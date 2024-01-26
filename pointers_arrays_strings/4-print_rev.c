@@ -1,11 +1,5 @@
 #include "main.h"
 /**
- *print_rev - print reverse
- *@s: checked output
- *
- *Return: always return 0
- */
-/**
  *_strlen - length of string
  *@s: checked output
  *
@@ -22,7 +16,12 @@ s++;
 }
 return (length);
 }
-
+/**
+ *print_rev - print reverse
+ *@s: checked output
+ *
+ *Return: always return 0
+ */
 void print_rev(char *s)
 {
 int i;
