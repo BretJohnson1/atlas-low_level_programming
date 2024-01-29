@@ -26,7 +26,7 @@ int _atoi(char *s)
 	{
 	  return (0);
 	}
-      *s++;
+      s++;
     }
   return (sign * num);
 }
