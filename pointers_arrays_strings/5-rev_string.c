@@ -25,7 +25,7 @@ return (length);
 void rev_string(char *s)
 {
   int i = _strlen(s);
-  char *b = 1;
+  char *b;
   char* start = s;
   char* end = s + i - 1;
 
