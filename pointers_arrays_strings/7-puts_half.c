@@ -4,11 +4,11 @@
  *@str: checked output
  *
  *Return: always return 0
- */
+*/
 void puts_half(char *str)
 {
-int i, len = 0, n = 0; 
-  
+int i, len = 0, n = 0;
+
 while ( str[len] != '\0')
 {
 len++;
