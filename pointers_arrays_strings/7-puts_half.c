@@ -16,7 +16,7 @@ len++;
 len--;
 if (len >= 1)
 {
-len = n / 2 + 1;
+n = len / 2 + 1;
 for (i = n; i <= len; i++)
 {
 _putchar(str[i]);
