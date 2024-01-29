@@ -21,7 +21,7 @@ int  i = 0;
 	    i = len / 2 + 1;
 	    for (n = i;n <= len; n++)
 	      {
-		_putchar(*str[n]);
+		_putchar(str[n]);
 	      }
   _putchar('\n');
 }
