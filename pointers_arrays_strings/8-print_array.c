@@ -8,16 +8,14 @@
  */
 void print_array(int *a, int n)
 {
-  int len = 0;
+int i;
   
-  while (a != '\0')
-    {
-      printf("%s = ",  a)
-	a++;
-	}
-  while (n <= len)
-    {
-      printf("%d");
-    }
-  -putchar('\n');
+for (i = 0; i < n; i++)
+{
+if (i != (n - 1))
+printf("%d, ", a[i]);
+else
+printf("%d", a[i]);
+}
+_putchar('\n');
 }
