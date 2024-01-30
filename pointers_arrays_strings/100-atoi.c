@@ -7,26 +7,28 @@
  */
 int _atoi(char *s)
 {
-  int num;
-  int sign;
-
-  if (*s == '+' || *s == '-')
-    {
-      sign = (*s == '-')
-	? -1 : 1;
-      s++;
-    }
-  while (*s != '\0')
-    {
-      if (*s >= '0' && *s <= '9')
+	unsigned int result;
+	int sign;
+	int num;
+	while (*s != '\0')
 	{
-	  num = num * 10 + (*s - '0');
+		if (*s == '-')
+		{
+			(sign = sign * -1);
+		}
+		else if (*s >= 48 && *s <= 57)
+		{
+			result = result * 10 + (*s - 48);
+			num = 1;
+		}
+		else if (*s == '+' || *s == ' ')
+		{
+		}
+		else if (num == 1)
+		{
+			break;
+		}
+		s++;
 	}
-      else
-	{
-	  return (0);
-	}
-      s++;
-    }
-  return (sign * num);
+	return (result * sign);
 }
