@@ -1,0 +1,11 @@
+#include "main.h"
+/**
+ *_strcmp - compares two strings
+ *@s1: checked output
+ *@s2: checked output
+ *
+ *Return: always return 0
+ */
+int _strcmp(char *s1, char *s2)
+{
+  
