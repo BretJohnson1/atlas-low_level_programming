@@ -11,14 +11,15 @@ int reverse_array(int *a, int n)
 	int i;
 	int m;
 
-	for (i = 0; i<n/2; i++)
+	for (i = 0; i <=; i++)
 	{
 		return (a[i]);
+	}
 
 		for (m = n; m >= 0; m--)
 		{
 			return (a[m]);
 		}
-	}
+
 	return (0);
 }
