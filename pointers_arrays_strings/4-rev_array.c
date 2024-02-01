@@ -20,4 +20,5 @@ int reverse_array(int *a, int n)
 			return (a[i]);
 		}
 	}
+	return (0);
 }
