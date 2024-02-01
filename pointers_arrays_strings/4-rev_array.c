@@ -6,7 +6,7 @@
  *
  *Return: always return 0
  */
-void reverse_array(int *a, int n)
+int reverse_array(int *a, int n)
 {
 	int i;
 	int m;
