@@ -13,7 +13,7 @@ char *cap_string(char *a)
 	{
 		if (a[i] >= 'a' && a[i] <= 'z')
 		{
-		switch (a[i])
+		switch (a[i - 1])
 			{
 			case ' ':
 			case '\t':
