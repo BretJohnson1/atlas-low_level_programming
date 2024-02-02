@@ -6,10 +6,10 @@
  *
  *Return: always return 0
  */
-int reverse_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int i;
-	int temp = *a;
+	int temp = a[i];
 
 	for(i = 0; i < n / 2; i++)
 	{
@@ -17,6 +17,4 @@ int reverse_array(int *a, int n)
 			a[n - 1 - i] = temp;
 	}
 	   
-
-	return (0);
 }
