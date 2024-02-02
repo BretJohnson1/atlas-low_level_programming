@@ -7,19 +7,26 @@
  */
 char *leet(char *a)
 {
-	char leet[] = "4BCD3FGHIJK1MN0PQR7UVWXYZ4bcd3fghijk1mn0pqr7uvwxyz";
-	int i;
-
-	for (i = 0; a[i] != '\0'; i++)
-	{
-		if (a[i] >= 'A' && a[i] <= 'Z')
-		{
-			a[i] = leet[a[i] - 'A'];
-		}
-		else if (a[i] >= 'a' && a[i] <= 'z')
-		{
-			a[i] = leet[a[i] - 'a' + 26];
-		}
-	}
-	return (a);
+	int i, j;
+    char leet[256] = {0};
+	
+    leet['a'] = leet['A'] = '4';
+    leet['e'] = leet['E'] = '3';
+    leet['o'] = leet['O'] = '0';
+    leet['t'] = leet['T'] = '7';
+    leet['l'] = leet['L'] = '1';
+	
+    for (i = 0, j = 0; a[i]; i++)
+    {
+        if (leet[a[i]])
+        {
+            a[j++] = leet[a[i]];
+        }
+        else
+        {
+            a[j++] = a[i];
+        }
+    }
+    a[j] = '\0';
+    return (a);
 }
