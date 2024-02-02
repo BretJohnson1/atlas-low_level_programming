@@ -28,6 +28,6 @@ char *cap_string(char *a)
 			case '}':
 				a[i + 1] = a[i + 1] -32;
 					}
-	   return (a);
 	}
+	return (a);
 }
