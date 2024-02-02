@@ -18,7 +18,7 @@ char *leet(char *a)
 	
     for (i = 0, j = 0; a[i]; i++)
     {
-        if ([a[i])
+        if (leet[a[i])
         {
             a[j++] = a[i];
         }
