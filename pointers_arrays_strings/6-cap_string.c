@@ -28,7 +28,7 @@ char *cap_string(char *a)
 			case ')':
 			case '{':
 			case '}':
-				a[i - 1] = a[i - 1] -32;
+				a[i] = a[i] -32;
 					}
 		}
 	}
