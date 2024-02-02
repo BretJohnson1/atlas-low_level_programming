@@ -5,11 +5,12 @@
  *
  *Return: always return 0
  */
-char *leet(char *)
+char *leet(char *a)
 {
 	char leet[] = "4BCD3FGHIJK1MN0PQR7UVWXYZ4bcd3fghijk1mn0pqr7uvwxyz";
+	int i;
 
-	for (int i = 0; a[i] != '\0'; i++)
+	for (i = 0; a[i] != '\0'; i++)
 	{
 		if (a[i] >= 'A' && a[i] <= 'Z')
 		{
@@ -20,5 +21,5 @@ char *leet(char *)
 			a[i] = leet[a[i] - 'a' + 26];
 		}
 	}
-	return (s);
+	return (a);
 }
