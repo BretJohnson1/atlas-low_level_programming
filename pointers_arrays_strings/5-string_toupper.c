@@ -7,7 +7,7 @@
  */
 char *string_toupper(char *a)
 {
-	int len = strlen(a);
+	int len = a;
 
 	for (i = 0; i < len; i++)
 	{
