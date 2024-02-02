@@ -10,17 +10,14 @@ int reverse_array(int *a, int n)
 {
 	int i;
 	int m;
-	int *f = a;
+	int temp = a;
 
-	for(i = 0; i <= n; i++)
+	for(i = 0; i < n / 2; i++)
 	{
-		m--;
-			}
-
-		for (m = n; m >= 0; m--)
-		{
-			f[m] = a[i];
-		}
+		a[i] = a[n - 1 - i];
+			a[n - 1 - i] = temp;
+	}
+	   
 
 	return (0);
 }
