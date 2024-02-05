@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  *_strpbrk - searches for a string of bytes
  *@s: checked output
