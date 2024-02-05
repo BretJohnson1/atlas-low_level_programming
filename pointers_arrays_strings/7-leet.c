@@ -16,9 +16,9 @@ char *leet(char *a)
 		{
 			for (b = 0; b <= 10; b++)
 			{
-				if (a == letter[i])
+				if ([a] == letter[i])
 				{
-					a == number[b];
+					[a] == number[b];
 				}
 			}
 		}
