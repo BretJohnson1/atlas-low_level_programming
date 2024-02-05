@@ -18,7 +18,7 @@ char *leet(char *a)
 			{
 				if (a[i] == letter[b])
 				{
-					a[i] == number[b];
+					a[i] = number[b];
 				}
 			}
 		}
