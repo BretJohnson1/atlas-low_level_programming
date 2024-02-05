@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_chessboard - print chessboard
- *@a[8]): checked output
+ *@a: checked output
  *
  *Return: always return 0
  */
