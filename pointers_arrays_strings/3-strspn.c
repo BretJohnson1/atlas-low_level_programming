@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *int_strspn - get the length
+ *_strspn - get the length
  *@s: checked output
  *@accept: checked output
  *
