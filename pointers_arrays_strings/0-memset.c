@@ -1,6 +1,6 @@
 #include "main.h"
-
-/**_memset - fills memory
+/**
+ *_memset - fills memory
  *@s: checked output
  *@b: checked output
  *@n: checked output
