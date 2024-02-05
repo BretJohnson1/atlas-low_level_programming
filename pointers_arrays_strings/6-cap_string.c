@@ -13,7 +13,12 @@ char *cap_string(char *a)
 	{
 		if (a[i] >= 'a' && a[i] <= 'z')
 		{
-		switch (a[i - 1])
+			if (i == 0)
+			{
+				a[i] -= 32;
+			}
+			
+			switch (a[i - 1])
 			{
 			case ' ':
 			case '\t':
