@@ -9,9 +9,8 @@ char *leet(char *a)
 {
 	int i;
 	int b;
-
-	char letter[] = "aAeEoOtTlL"
-	char number[] = "4433007711"
+	char letter[] = "aAeEoOtTlL";
+	char number[] = "4433007711";
 
 		for (i = 0; letter[i] != '\0'; i++)
 		{
