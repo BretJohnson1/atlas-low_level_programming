@@ -5,11 +5,18 @@
  *
  *Return: always return 0
  */
-int calsqrt(int n, int a)
 int _sqrt_recursion(int n)
 {
 	return (calsqrt(n, 0));
 }
+
+/**
+ *calsqrt - calculate square root
+ *@n: checked ouptut
+ *@a: checked output
+ *
+ *Return: always return 0
+ */
 
 		int calsqrt(int n, int a)
 	{
