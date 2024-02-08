@@ -5,6 +5,7 @@
  *
  *Return: always return 0
  */
+int calsqrt(int n, int a)
 int _sqrt_recursion(int n)
 {
 	return (calsqrt(n, 0));
