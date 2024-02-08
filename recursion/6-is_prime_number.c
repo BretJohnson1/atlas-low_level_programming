@@ -5,7 +5,7 @@
  *
  *Return: always return 0
  */
-int is_prime_number(int n)
+int is_prime_number(int n, int i)
 {
 	int i = 2;
 
@@ -13,7 +13,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	if (n ==2)
+	if (n == 2)
 	{
 		return (1);
 	}
@@ -25,6 +25,5 @@ int is_prime_number(int n)
 	{
 		return (1);
 	}
-	
-	return (is_prime_number(n));
+	return (is_prime_number(n, i + 1));
 }
