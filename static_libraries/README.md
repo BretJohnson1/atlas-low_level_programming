@@ -1,0 +1,1 @@
+We are building a static library and danny doesnt like emacs, but thats hisproblem.
