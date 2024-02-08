@@ -1,0 +1,10 @@
+#include "main.h"
+/**
+ *_sqrt_recursion - return natural square root
+ *@n: checked output
+ *
+ *Return: always return 0
+ */
+int _sqrt_recursion(int n)
+{
+	
