@@ -7,9 +7,16 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n == 0)
-	{
-		return (1);
-	}
-	return (_sqrt_recursion(n^2));
+	return (calsqrt(n, 0);
 }
+
+		int calsqrt(int n, int a)
+	{
+		if (n < 0 || a == n)
+			return (-1);
+		if (n == 0 || n == 1)
+			return (n);
+		if (a * a == n)
+			return (a);
+		return (calsqrt(n, a + 1));
+	}
