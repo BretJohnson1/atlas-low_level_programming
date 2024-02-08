@@ -2,6 +2,7 @@
 /**
  *is_prime_number - check for prime
  *@n: checked output
+ *@i: checked output
  *
  *Return: always return 0
  */
