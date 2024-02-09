@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		result += i;
 		printf("%d", result);
 	}
-	a = atoi(argv[i])
+	a = atoi(argv[i]);
 		if (a < 48 || a > 57)
 		{
 			printf("Error\n");
