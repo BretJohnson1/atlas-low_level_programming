@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 		int b = atoi(argv[2]);
 	int result = (a * b);
 	
-	if (argv < 3)
+	if (argc < 2)
 	{
 		printf("Error\n");
 			return (1);
