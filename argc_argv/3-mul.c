@@ -10,10 +10,10 @@
  */
 int main(int argc, char *argv[])
 {
-	int result = (argc * argc);
+	int result = (argv * argv);
 	(void) argv;
 
-	atoi (argv);
+	int atoi (argv);
 	
 	if (argv < 2)
 	{
