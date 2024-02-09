@@ -5,7 +5,7 @@
  *@argc: checked output
  *@argv: checked output
  *
- *return: always return 0
+ *Return: always return 0
  */
 int main(int argc, char *argv[])
 {
