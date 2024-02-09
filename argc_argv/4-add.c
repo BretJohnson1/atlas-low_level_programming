@@ -10,18 +10,19 @@
  */
 int main(int argc, char *argv[])
 {
+	int a = atoi(argv[i])
 	int i;
 	int result;
 
 	while (scanf("%d", &i) ==1)
 	{
-		result += i
+		result += i;
 			}
 		if (argc == 1)
 		{
 			printf("0\n");
 		}
-		else if (argv < 48 || argv > 57)
+		else if (a < 48 || a > 57)
 		{
 			printf("Error\n");
 			return (1);
