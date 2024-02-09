@@ -11,6 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
+	int a = atoi(argv[i]);
 	int result = 0;
 
 	while (scanf("%d", &i) == 1)
