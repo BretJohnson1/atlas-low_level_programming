@@ -11,20 +11,21 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int a = argv[i];
 	int result;
 
-	for (i = 0; i < strlen(a); i++)
-		{
-			if (a[i] < 48 || a[i] > 57)
-			{
-				printf("%d\n", result)
-					}
-			result += atoi(a)
-				a++
-
-	if (argc == 0)
+	while (scanf("%d", &i) ==1)
 	{
-		printf("0\n");
-	}
-			return (0);
+		result += i
+			}
+		if (argc == 1)
+		{
+			printf("0\n");
+		}
+		else if (argv < 48 || argv > 57)
+		{
+			printf("Error\n");
+			return (1);
+		}
+		return (0);
+}
+			
