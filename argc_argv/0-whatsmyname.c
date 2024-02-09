@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *whatsmyname - prints the name of a program
+ *main - prints the name of a program
+ *@argc: checked output
+ *@argv: checked output
  *
  *Return: always return 0
  */
