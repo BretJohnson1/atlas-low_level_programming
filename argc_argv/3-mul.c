@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	}
 	else if (argc == 3)
 	{
-		printf("%d", result);
+		printf("%d\n", result);
 		return(result);
 	}
 	return (0);
