@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int result = (argc * argc);
 	(void) argv;
 
-	atoi(argv[]);
+	atoi (argv);
 	
 	if (argv < 2)
 	{
