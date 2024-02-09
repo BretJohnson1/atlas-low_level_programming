@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int a = atoi(argv[i]);
+	int a;
 	int result = 0;
 
 	while (scanf("%d", &i) == 1)
@@ -19,7 +19,8 @@ int main(int argc, char *argv[])
 		result += i;
 		printf("%d", result);
 	}
-		if (argv[i] < 48 || argv[i] >57)
+	a = atoi(argv[i])
+		if (a < 48 || a > 57)
 		{
 			printf("Error\n");
 			return (1);
