@@ -10,8 +10,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int a = atoi(argv[i])
 	int i;
+	int a = atoi(argv[i]);
 	int result;
 
 	while (scanf("%d", &i) ==1)
