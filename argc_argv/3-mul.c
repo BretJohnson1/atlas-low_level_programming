@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int result = (argv * argv);
-	(void) argv;
+	(void) argc;
 
 	int atoi (argv);
 	
