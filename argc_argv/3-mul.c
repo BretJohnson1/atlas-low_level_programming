@@ -9,16 +9,17 @@
  */
 int main(int argc, char *argv[])
 {
-	int a = 2, b = 5, result = (a * b);
-	(void) argc;
+	int result = (argc * argc);
 	(void) argv;
+
+	atoi(argv[]);
 	
-	if (result < 2)
+	if (argv < 2)
 	{
 		printf("Error\n");
 			return (1);
 	}
-	else if (result >= 2)
+	else if (argv == 2)
 	{
 		printf("%d", result);
 		return(result);
