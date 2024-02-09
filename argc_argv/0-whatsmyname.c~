@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ *whatsmyname - prints the name of a program
+ *
+ *Return: always return 0
+ */
+char whatsmyname(argc, argv[])
+{
+	printf(
+		}
