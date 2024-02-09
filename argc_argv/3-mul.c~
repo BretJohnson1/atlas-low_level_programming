@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ *main - multiply two numbers
+ *@argc: checked output
+ *@argv: checked output
+ *
+ *Return: always return 0
+ */
+int main(int argc, char *argv[])
+{
+	int a, b, result = 0;
+	(void) argc;
+	(void) argv;
+	
+	if (argc < 2)
+	{
+		printf("Error")
+			return (1);
+	}
+
+	printf("%d * %d = %d"
+	
