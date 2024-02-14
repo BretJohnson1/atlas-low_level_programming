@@ -3,7 +3,7 @@
 /**
  *alloc_grid - point to a 2 dimensional array
  *@width: checked output
- *@hieght: checked output
+ *@height: checked output
  *
  *Return: always return 0
  */
