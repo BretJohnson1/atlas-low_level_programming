@@ -1,0 +1,1 @@
+In this project we're learning about memory allocation and how/when to use it.
