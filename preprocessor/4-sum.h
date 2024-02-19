@@ -5,7 +5,7 @@
  *
  *Return: always return 0
  */
-int main(void)
+int main()
 {
 	int a = 5;
 	int b = 3;
