@@ -1,11 +1,11 @@
 #include <stdio.h>
-#define SUM(x, y) ((x) + (y))
+#define SUM(x, y) (x + y)
 /**
  *main - compute sums
  *
  *Return: always return 0
  */
-int SUM()
+int SUM(x, y)
 {
 	int a = 5;
 	int b = 3;
