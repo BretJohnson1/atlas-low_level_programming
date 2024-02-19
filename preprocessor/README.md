@@ -1,0 +1,1 @@
+In this project we're learning about the compiling process and how macros work.
