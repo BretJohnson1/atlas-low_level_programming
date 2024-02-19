@@ -5,7 +5,7 @@
  *
  *Return: always return 0
  */
-int SUM()
+int SUM(int x, int y)
 {
 	int a = 5;
 	int b = 3;
