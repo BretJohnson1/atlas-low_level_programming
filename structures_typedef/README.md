@@ -1,0 +1,1 @@
+In this project we're learning about data structures and typedef and how they work.
