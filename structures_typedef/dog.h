@@ -1,16 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef DOG_H
+#define DOG_H
 /**
- *main - data structure
+ * struct dog - a dog's basic info
+ * @name: First member
+ * @age: Second member
+ * @owner: Third member
  *
+ * Description: Longer description
  */
-int main(void)
-{
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}
-	return (0);
-}
+};
