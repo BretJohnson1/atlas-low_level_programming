@@ -1,0 +1,1 @@
+In this project we're learning about singly linked lists and how to use them
