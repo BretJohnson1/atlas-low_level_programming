@@ -3,8 +3,8 @@
 #include <stddef.h>
 #include "lists.h"
 /**
- *print_list: print all elements of a list
- *@h - checked output
+ *print_list - print all elements of a list
+ *@h: checked output
  *
  *Return: always return 0
  */
