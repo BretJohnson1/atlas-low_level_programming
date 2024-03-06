@@ -1,5 +1,6 @@
 #include "lists.h"
-/**add_node - adds a node to the beginning of list
+/**
+ *add_node - adds a node to the beginning of list
  *@head: checked output
  *@str: checked output
  *
