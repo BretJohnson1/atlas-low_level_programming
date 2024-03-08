@@ -1,0 +1,1 @@
+In this project we're learning about bit manipulation and how to impliment it
