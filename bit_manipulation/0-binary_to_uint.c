@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *binary_to_unit - converts binary to int
+ *binary_to_uint - converts binary to int
  *@b: checked output
  *
  *Return: always return 0
