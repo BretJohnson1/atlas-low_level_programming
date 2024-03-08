@@ -1,5 +1,13 @@
 #include "lists.h"
 /**
+ *add_nodeint - adds a node
+ *@head: checked output
+ *@n: checked output
+ *
+ *Return: always return 0
+ */
+listint_t *add_nodeint(listint_t **head, const int n)
+/**
  *insert_nodeint_at_index - inserts node at any position
  *@head: checked output
  *@idx: checked output
