@@ -11,7 +11,7 @@ void print_binary(unsigned long int n)
 	if (n == 0)
 	{
 		printf("0");
-			   return;
+			return;
 	}
 
 	while (mask != 0)
