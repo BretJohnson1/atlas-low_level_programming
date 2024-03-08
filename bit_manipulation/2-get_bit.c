@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  *get_bit - Returns the value of a bit
  *@n: checked output
