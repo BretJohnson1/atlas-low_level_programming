@@ -1,5 +1,6 @@
 #include "main.h"
 #define BUF_SIZE 1024
+int make_betty_happy(void)
 /**
  *main - copies content from one file to another
  *@argc: checked output
