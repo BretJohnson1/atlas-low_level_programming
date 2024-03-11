@@ -10,13 +10,13 @@ int make_betty_happy(void);
  */
 int main(int argc, char *argv[])
 {
-	int fd_from, fd_to, bytes_read,bytes_written;
+	int fd_from, fd_to, bytes_read, bytes_written;
 	char buffer[BUF_SIZE];
 
 	if (argc != 3)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-		return(97);
+		return (97);
 	}
 
 	fd_from = open(argv[1], O_RDONLY);
@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 	if (close(fd_from) == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_from);
-		return(100);
+		return (100);
 	}
 
 	if (close(fd_to) == -1)
