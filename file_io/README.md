@@ -1,0 +1,1 @@
+In this project we're learning about file input/output and how to manipulate it
