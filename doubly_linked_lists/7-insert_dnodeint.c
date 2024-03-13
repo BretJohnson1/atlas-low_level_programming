@@ -7,7 +7,7 @@
  *
  *Return: always return 0
  */
-dlistint *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new_node, *current;
 	unsigned int i;
