@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  *insert_dnodeint_at_index - inserts a node at index
- *@H: checked output
+ *@h: checked output
  *@idx: checked output
  *@n: checked output
  *
