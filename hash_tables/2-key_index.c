@@ -4,7 +4,7 @@
  *@key: checked output
  *@size: checked output
  *
- *Rreturn: always return 0
+ *Return: always return 0
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
