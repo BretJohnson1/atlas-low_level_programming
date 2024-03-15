@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 /**
- *hash_djb2(const unsigned char *str)
+ *hash_djb2 - (const unsigned char *str)
  *@str: checked output
  *
  *Return: always return 0
