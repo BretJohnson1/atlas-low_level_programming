@@ -12,7 +12,7 @@ int linear_serach(int *array, size_t size, int value)
         return (-1);
     }
 
-    for (size_t i = 0; i < size; i++)
+    for (i = 0; i < size; i++)
     {
         printf("Comparing %d\n", array[i]);
         if (array[i] == value)
